@@ -1,4 +1,5 @@
 import React from 'react'
+import { loginUrl } from '../../../config/spotify'
 import "./Login.css"
 
 function Login() {
@@ -8,7 +9,7 @@ function Login() {
                 src="https://www.soydemac.com/wp-content/uploads/2019/10/logo-spotify-1024x427.jpg.webp"
                 alt=""
             />
-            <a>Login</a>
+            <a href={loginUrl} >Login</a>
         </div>
     )
 }
