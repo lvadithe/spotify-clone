@@ -1,9 +1,10 @@
 import React from 'react'
+import Login from './components/Principal/Login/Login'
 
 function App() {
   return (
     <div className='App'>
-      <h1>Spotify clone</h1>
+      <Login />
     </div>
   )
 }
